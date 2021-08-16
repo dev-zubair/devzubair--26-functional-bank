@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baap-er-Bank</title>
+    <!-- Tailwind CSS link  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-10">Welcome to my <span class="font-semibold	text-green-500">Baap-Er-Bank</span></h1>
+    </header>
+
+    <main>
+        <section class="bg-red-200	w-3/4 mx-auto mt-8 p-8">
+            <!-- Using Div instead of Form - because of not refresh the page which click submit button  -->
+            <div>
+                <h3 class="text-2xl px-4 mb-4">Please login</h3>
+                <input id='user-email' class="border border-gray-500 w-3/4 block mx-4 mb-4 px-2 rounded" type="email" name="" id="" placeholder="Your Email Address">
+                <input id='user-password' class="border border-gray-500 w-3/4 block mx-4 mb-4 px-2 rounded" type="password" name="" id="" placeholder="Your Password">
+                <button id="login-submit" class="bg-yellow-500 px-4 py-2 mx-4 rounded">Submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/login.js"></script>
+</body>
+</html>
